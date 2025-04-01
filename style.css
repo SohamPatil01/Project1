@@ -1,0 +1,64 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-family-body);
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--body-text-color);
+  font-style: normal;
+}
+
+root {
+  --font-family-body: "Roboto", sans-serif;
+  --font-family-heading: "Poppins", sans-serif;
+  --primary-color: #0d9b4d;
+  --secondary-color: #edf8ff;
+  --body-text-color: #04000f;
+  --heading-text-color: #04000f;
+  --paragraph-text-color: #65676b;
+  --preview-gradient-color: linear-gradient(
+    to right,
+    #0d9b4d 0%,
+    #0d9b4d 50%,
+    #0d9b4d 100%
+  );
+  --banner-text-color: #777;
+  --demo-item-border-color: #ececec;
+}
+
+header {
+  height: 70vh;
+  background-image: url("https://themeadapt.com/demo/suxnix-shopify/assets/img/banner/background.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-top {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 800;
+  font-size: x-large;
+}
+.header-top img {
+  padding-top: 40px;
+}
+.header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem;
+}
+.header-bottom img {
+  height: 3rem;
+  width: 4rem;
+  margin-left: 1rem;
+}
+.header-bottom p {
+  text-align: center;
+  font-weight: 400;
+}
